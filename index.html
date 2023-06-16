@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather app</title>
+    <script
+      src="https://kit.fontawesome.com/232aed5428.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title">
+        <p>weather today</p>
+      </div>
+      <div class="app">
+        <div class="search">
+          <input
+            class="search-input"
+            placeholder="search weather now..."
+            type="text"
+          />
+          <i class="search-icon fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="container">
+          <div class="img">
+            <img src="https://source.unsplash.com/random" alt="" />
+          </div>
+          <div class="content">
+            <div class="degree">22*C</div>
+            <div class="status">Cloudy</div>
+            <div class="locate">New York</div>
+          </div>
+          <div class="weather">
+            <div class="left">
+              <i class="fa-solid fa-wind"></i>
+              <span>
+                <h3>Wind</h3>
+                <p class="wind-value">3.2km/h</p>
+              </span>
+            </div>
+            <div class="right">
+              <i class="fa-solid fa-droplet"></i>
+              <span>
+                <h3>Humidity</h3>
+                <p class="humid-value">35%</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="./app.js"></script>
+  </body>
+</html>
